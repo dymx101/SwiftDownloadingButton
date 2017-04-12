@@ -9,17 +9,21 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var downloadingButton: DownloadingButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+//        downloadingButton.state = DownloadingButton.State.downloaded
+        
+//        Timer.scheduledTimer(withTimeInterval: 0.2, repeats: true) { (timer) in
+//            if self.downloadingView.progress < 1 {
+//                self.downloadingView.progress += 0.01
+//            } else {
+//                timer.invalidate()
+//            }
+//        }
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
 

@@ -14,7 +14,12 @@ class DownloadingView: UIView {
     var emptyLineWidth: CGFloat = 0.5
     var progressLineWidth: CGFloat = 5
     var rectCornerRadius: CGFloat = 4
-    var progress = 0.3
+    
+    var progress: Double = 0 {
+        didSet {
+            setNeedsDisplay()
+        }
+    }
     
     let startAngle = CGFloat(M_PI_2 * 3)
     var endAngle: CGFloat {

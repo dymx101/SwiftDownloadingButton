@@ -13,6 +13,7 @@
 		A6B0A94E1E9D0BA200CD26FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6B0A94D1E9D0BA200CD26FF /* Assets.xcassets */; };
 		A6B0A9511E9D0BA200CD26FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6B0A94F1E9D0BA200CD26FF /* LaunchScreen.storyboard */; };
 		A6B0A95A1E9D0BEC00CD26FF /* DownloadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B0A9591E9D0BEC00CD26FF /* DownloadingView.swift */; };
+		A6B0A95C1E9DDA1500CD26FF /* DownloadingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B0A95B1E9DDA1500CD26FF /* DownloadingButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A6B0A9501E9D0BA200CD26FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A6B0A9521E9D0BA200CD26FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6B0A9591E9D0BEC00CD26FF /* DownloadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadingView.swift; sourceTree = "<group>"; };
+		A6B0A95B1E9DDA1500CD26FF /* DownloadingButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadingButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				A6B0A9591E9D0BEC00CD26FF /* DownloadingView.swift */,
+				A6B0A95B1E9DDA1500CD26FF /* DownloadingButton.swift */,
 			);
 			path = SwiftDownloadingButton;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6B0A95C1E9DDA1500CD26FF /* DownloadingButton.swift in Sources */,
 				A6B0A9491E9D0BA200CD26FF /* ViewController.swift in Sources */,
 				A6B0A95A1E9D0BEC00CD26FF /* DownloadingView.swift in Sources */,
 				A6B0A9471E9D0BA200CD26FF /* AppDelegate.swift in Sources */,
@@ -314,6 +318,7 @@
 				A6B0A9571E9D0BA200CD26FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

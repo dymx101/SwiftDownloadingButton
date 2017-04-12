@@ -21,7 +21,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hYH-U3-Yii" customClass="DownloadingView" customModule="SwiftDownloadingButtonDemo" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hYH-U3-Yii" customClass="DownloadingButton" customModule="SwiftDownloadingButtonDemo" customModuleProvider="target">
                                 <rect key="frame" x="137" y="283.5" width="100" height="100"/>
                                 <color key="backgroundColor" red="0.91224093264248707" green="0.91224093264248707" blue="0.91224093264248707" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -30,12 +30,15 @@
                                 </constraints>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.18041483493067528" green="0.3933535697561707" blue="0.47267648963730569" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="hYH-U3-Yii" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="6jF-Ko-FHj"/>
                             <constraint firstItem="hYH-U3-Yii" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xEh-4U-8N6"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="downloadingButton" destination="hYH-U3-Yii" id="HKv-kN-LBZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
